@@ -12,7 +12,7 @@ public interface Alertable{
 	/**
 	 * Desactiva alerta en el dispositivo
 	 */
-	void desactivarAlerta(String mensaje);
+	void desactivarAlerta();
 	
-	void hayAlerta();
+	boolean hayAlerta();
 }

@@ -15,11 +15,11 @@ public abstract class Dispositivo implements Comparable<Dispositivo> {
 		this.encendido = false;
 	}
 	
-	void encender() {
+	public void encender() {
 		this.encendido = true;
 	}
 	
-	void apagar() {
+	public void apagar() {
 		this.encendido = false;
 	}
 	

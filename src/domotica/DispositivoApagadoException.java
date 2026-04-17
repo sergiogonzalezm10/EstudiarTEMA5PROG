@@ -12,4 +12,5 @@ public class DispositivoApagadoException extends RuntimeException {
  public DispositivoApagadoException() {
 	 super("Error: El dispositivo está apagado");
  }
+ 
 }
