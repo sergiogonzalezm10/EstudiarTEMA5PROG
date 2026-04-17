@@ -24,7 +24,7 @@ public class Principal {
         for (Dispositivo d : catalogo) {
             System.out.println(d);
         }
-        /**
+
         System.out.println("\nACCIONES POR DISPOSITIVO");
         for (Dispositivo d : catalogo) {
             d.encender();
@@ -62,6 +62,6 @@ public class Principal {
         } catch (DispositivoApagadoException e) {
             System.out.println(e.getMessage());
         }
-        */
+
     }
 }
