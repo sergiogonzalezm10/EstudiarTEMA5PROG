@@ -34,19 +34,19 @@ DISEÑO
 
 
 --------------------------------------------
-| <<abstract>>				    |
-|	Dispositivo			    |
+| <<abstract>>				    			|
+|	Dispositivo			   					|
 --------------------------------------------
-| - nombre : String			    |
-| - marca : String			    |
-| - precio : double			    |
-| - encendido : boolean 		    |
+| - nombre : String			  			    |
+| - marca : String			  		        |
+| - precio : double			  			    |
+| - encendido : boolean 		            |
 --------------------------------------------
 | + Dispositivo(nombre:String, marca: String|
-| 		precio: double)		    |
+| 		precio: double)		                |
 --------------------------------------------
-| + encender() : void			    |
-| + apagar() : void			    |
+| + encender() : void			            |
+| + apagar() : void			                |
 | + isEncendido() : boolena		    |
 | + getNombre() : String		    |
 | + getMarca() : String			    |

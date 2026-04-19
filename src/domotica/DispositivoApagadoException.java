@@ -1,16 +1,17 @@
 package domotica;
-
-/*
- * Excepción que se lanza cuando se realiza una acción, cuando el dispositivo debe estar 
- * encendido y está apagado.
+ 
+/**
+ * Excepción que se lanza cuando se intenta realizar una operación
+ * que requiere que el dispositivo esté encendido, pero este se
+ * encuentra apagado.
  */
 public class DispositivoApagadoException extends RuntimeException {
-	
-/**
- * Excepcion que muestra el mensaje de que el dispositivo está apagado
- */
- public DispositivoApagadoException() {
-	 super("Error: El dispositivo está apagado");
- }
  
+    /**
+     * Crea una excepción con el mensaje estándar de dispositivo apagado.
+     */
+    public DispositivoApagadoException() {
+        super("Error: el dispositivo está apagado.");
+    }
 }
+ 
